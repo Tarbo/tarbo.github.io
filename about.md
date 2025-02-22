@@ -1,4 +1,3 @@
-<!-- filepath: /Users/ezeme.okwudili/Desktop/tarbo.github.io/about.md -->
 ---
 layout: default
 title: About

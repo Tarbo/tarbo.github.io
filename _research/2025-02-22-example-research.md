@@ -1,7 +1,6 @@
-<!-- filepath: /Users/ezeme.okwudili/Desktop/tarbo.github.io/_research/2025-02-22-example-research.md -->
 ---
-title: Example Research Article
-date: 2025-02-22
+title: Design and development of AD-CGAN: Conditional generative adversarial networks for anomaly detection
+date: 2020-09-21
+author: Okwudili Ezeme
+url: https://tinyurl.com/adcgan-paper
 ---
-
-This is an example research post.

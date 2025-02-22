@@ -1,4 +1,3 @@
-<!-- filepath: /Users/ezeme.okwudili/Desktop/tarbo.github.io/projects.md -->
 ---
 layout: default
 title: Projects & Tutorials

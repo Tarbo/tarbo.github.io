@@ -1,10 +1,32 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset margins and ensure full height */
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
   }
   
-  header, footer {
+  /* Make the body a flex container in column layout */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Let main expand to fill available space */
+  main {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  /* Center footer contents and style it */
+  footer {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Style the header and navigation */
+  header {
     background-color: #f2f2f2;
     padding: 1rem;
   }
@@ -14,10 +36,18 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 1rem;
+    justify-content: center; /* Center the nav items horizontally */
+    gap: 1rem; /* Add space between nav items */
   }
   
   nav a {
     text-decoration: none;
     color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
   }

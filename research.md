@@ -1,4 +1,3 @@
-<!-- filepath: /Users/ezeme.okwudili/Desktop/tarbo.github.io/research.md -->
 ---
 layout: default
 title: Research
@@ -9,10 +8,10 @@ title: Research
 Access my academic research and publications.
 
 <p>
-  Visit my <a href="https://scholar.google.com">Google Scholar</a> and
-  <a href="https://www.researchgate.net">ResearchGate</a> profiles.
+  Visit my <a href="https://tinyurl.com/dili-gs-publications">Google Scholar</a> and
+  <a href="https://tinyurl.com/dili-rg-publications">ResearchGate</a> profiles for complete list of publications.
 </p>
 
 {% for paper in site.research %}
-- [{{ paper.title }}]({{ paper.url }})
+- [{{ paper.title }}]({{ paper.url }}) by {{ paper.author }}
 {% endfor %}
