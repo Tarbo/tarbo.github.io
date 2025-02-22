@@ -6,7 +6,7 @@ permalink: /about.html
 
 # Dr. Okwudili Ezeme
 
-<div style="float: left; margin-right: 20px;">
+<div style="float: left; margin-right: 40px; margin-bottom: 20px;">
     <img src="assets/images/tarbo.png" alt="Profile Photo" style="max-width: 200px;">
 </div>
 
