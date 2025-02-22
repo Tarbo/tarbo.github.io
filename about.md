@@ -6,7 +6,9 @@ permalink: /about.html
 
 # Dr. Okwudili Ezeme
 
-![Profile Photo](assets/images/tarbo.png)
+<div style="float: left; margin-right: 20px;">
+    <img src="assets/images/tarbo.png" alt="Profile Photo" style="max-width: 200px;">
+</div>
 
 ## Introduction
 
@@ -17,7 +19,7 @@ Hello! I'm Okwudili Ezeme, a passionate data scientist and AI researcher with a 
 - **Machine Learning:** Expertise in fundamental supervised and unsupervised data science algorithms. .
 - **Data Analysis:** Proficient in data cleaning, visualization, and statistical analysis.
 - **Programming:** Python is my main programming language of choice but this is 2025, I can pick up any language in a jiffy. I can also do SQL if I need to.
-- **AI Project Architect:** Design end-to-end AI solution from conception to delivery
+- **AI Project Architect:** Designed end-to-end AI solution from conception to delivery
 - **AI Research:** Published research on generative adversarial networks and anomaly detection.
 - **Cloud Platforms:** Experienced with Azure Databricks and other cloud-based data platforms.
 
