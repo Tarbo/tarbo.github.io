@@ -11,5 +11,17 @@
         {{ content }}
     </main>
     {% include footer.html %}
+    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+    <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('search-results'),
+        json: '/search.json',
+        searchResultTemplate: '<div class="search-result"><a href="{url}"><strong>{title}</strong></a> <span class="category">{category}</span></div>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false
+      });
+    </script>
 </body>
 </html>
