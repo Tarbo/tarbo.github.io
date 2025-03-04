@@ -4,21 +4,23 @@ layout: none
 [
   {% for project in site.projects %}
     {
-      "title"    : "{{ project.title | escape }}",
-      "category" : "project",
-      "tags"     : "{{ project.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ project.url }}",
-      "date"     : "{{ project.date }}"
-    } {% unless forloop.last %},{% endunless %}
+      "title": "{{ project.title | escape }}",
+      "category": "project", 
+      "tags": "{{ project.tags | join: ', ' }}",
+      "url": "{{ site.baseurl }}{{ project.url }}",
+      "date": "{{ project.date }}",
+      "content": {{ project.content | strip_html | strip_newlines | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
   {% if site.projects and site.research %},{% endif %}
   {% for research in site.research %}
     {
-      "title"    : "{{ research.title | escape }}",
-      "category" : "research",
-      "tags"     : "{{ research.tags | join: ', ' }}",
-      "url"      : "{{ site.baseurl }}{{ research.url }}",
-      "date"     : "{{ research.date }}"
-    } {% unless forloop.last %},{% endunless %}
+      "title": "{{ research.title | escape }}",
+      "category": "research",
+      "tags": "{{ research.tags | join: ', ' }}",
+      "url": "{{ site.baseurl }}{{ research.url }}",
+      "date": "{{ research.date }}",
+      "content": {{ research.content | strip_html | strip_newlines | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
